@@ -1,0 +1,212 @@
+/** @format */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f5f7fa;
+  padding: 20px;
+}
+.main-container {
+  display: flex;
+  margin: 40px;
+  background: #ffffff;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.sidebar {
+  background: #1e2939;
+  color: #ffffff;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+img {
+  width: 370px;
+}
+.contacts {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+.soft-Skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+.softpoint li {
+  color: #ff6b08;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.tech-Skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+.techpoint li {
+  color: #ff6b08;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.techpoint li span {
+  color: #ffffff;
+}
+
+.softpoint li span {
+  color: #ffffff;
+}
+.sidebare-title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.liter-bold {
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.contacts a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #8f949c;
+  font-weight: 400;
+}
+
+/* about me container */
+
+.my-profession {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.my-name {
+  font-size: 45px;
+  line-height: 89px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.me-info {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  font-weight: 400;
+  max-width: 417px;
+  padding-bottom: 65px;
+}
+
+.about-me-title {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.my-projects {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.my-projects li {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.my-projects li a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.my-projects li a:hover {
+  color: #ff6b08;
+}
+
+.my-projects li span {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  font-weight: 400;
+}
+
+.work-experience-container {
+  padding-top: 55px;
+}
+
+.work-time {
+  font-size: 12px;
+  line-height: 24px;
+  color: #a8a8a8;
+  font-weight: 400;
+}
+
+.profession-work {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.orange {
+  color: #ff6b08;
+}
+.obyazanosti {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.education {
+  padding-top: 55px;
+}
+
+.name-university {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff6b08;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.profession-university {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* fany animation */
+
+.right {
+  display: none;
+}
+
+.left {
+  display: block;
+}
